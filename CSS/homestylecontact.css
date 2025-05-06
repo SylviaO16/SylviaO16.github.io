@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #021603;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #bfae91; /* Blanchedalmond text color */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.linkedin-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #bfae91;
+    background-color: #021603;
+    padding: 10px 20px;
+    border: 2px solid #bfae91;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.linkedin-link:hover {
+    background-color: #bfae91;
+    color: #021603;
+}

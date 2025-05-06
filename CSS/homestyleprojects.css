@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #021603; /* Dark green background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #FFF;
+    margin: 30px 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #021603;
+    width: 100%;
+    border-bottom: 2px solid #bfae91; /* Blanchedalmond border */
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #bfae91; /* Blanchedalmond text color */
+    background-color: #021603;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #bfae91;
+    color: #021603;
+}
+
+.content {
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #bfae91; /* Blanchedalmond background */
+    color: #021603;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.content h2 {
+    color: #021603;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #021603;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color:#021603;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ .about-me-section {
+    display: flex;
+    align-items: left;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.about-me-section img {
+    width: 50%;
+    height: 500px;;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.about-text {
+    flex: 1;
+}
