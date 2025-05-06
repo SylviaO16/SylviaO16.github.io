@@ -11,6 +11,32 @@ body {
     height: 100vh;
 }
 
+.nav-links { 
+    margin: 0;
+    background-color:blanchedalmond;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-links a {
+    text-decoration: none;
+    color:rgb(0, 42, 0);
+    padding:10px;
+    margin:0;
+}
+
+.nav-links a.active {
+    color:antiquewhite;
+    background-color:darkolivegreen;
+}
+
+.nav-links a:hover:hover:not(.active) {
+    background-color: #bfae91;
+    color:blanchedalmond;
+}
+
 h1 {
     color: #bfae91; /* Blanchedalmond text color */
     margin-bottom: 20px;
